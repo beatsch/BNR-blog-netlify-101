@@ -328,7 +328,7 @@ button[type="submit"]:hover {
 }
 
 footer {
-  background-color: #CCCCCC;
+  background-color: transparent;
   font-family: arial;
   text-align: center;
   overflow: hidden;
@@ -342,7 +342,7 @@ footer {
   margin-right: auto;
 }
 .footertable td, th {
-  border-color: #DDDDDD;
+  border-color: transparent;
   border-width: 1px;
   border-spacing: initial;
   border-style: solid;
