@@ -1,0 +1,34 @@
+@media print {
+  @page {
+    size: auto;
+    margin:0 auto;
+  }
+
+  html {
+    color: #000000;
+    background-color: #FFFFFF;
+  }
+
+  nav, header, footer {
+    display: none !important;
+    height: 0;
+  }
+
+  .no-print {
+    display: none !important;
+    height: 0;
+  }
+
+  h1, h2, q {
+    page-break-after: avoid;
+  }
+
+  div, section, p, blockquote, table, figure, a, br {
+    page-break-before: auto;
+  }
+
+  p, blockquote, q {
+    orphans: 3;
+    widows: 3;
+  }
+}
