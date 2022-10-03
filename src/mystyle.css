@@ -401,4 +401,10 @@ footer {
   page-break-after: avoid;
 }
 
+h3 {
+  text-align: center;
+  font-weight: 300;
+  color: #3C5FA3;
+}
+
 
