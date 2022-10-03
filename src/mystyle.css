@@ -5,6 +5,9 @@ body {
   background-size: cover;
   font: black;
   background-position: center 74%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media screen (min-width: 320px) and (max-width: 768px) {
@@ -14,19 +17,7 @@ body {
   }
 }
 
-main {
-    background: #d9d7d5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
 
-  div {
-    background: #767775;
-    flex-basis: 100%;
-    height: 100px;
-    margin-bottom: 0.5rem;
-  }
 
   @media (min-width: 600px) {
     main {
