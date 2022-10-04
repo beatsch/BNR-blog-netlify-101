@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    body {
+      font-family: arial;
+      background: url("https://www.fg-a.com/wallpapers/white-background-marble.jpg") repeat;
+    }
+
+    a:active {
+        color: #FF0000;
+        background-color: #FFFFFF;
+    }
+
+    a:hover {
+        background-color: #FFFF99;
+    }
+
+    a:focus {
+        border: 1px dotted #000000;
+    }
+
+    table {
+        border-spacing: initial;
+    }
+
+    table, th, td {
+        text-align: left;
+        vertical-align: top;
+        border: 0.5px solid #000000;
+    }
+
+    code {
+        border: 1px solid #BBBBBB;
+        background-color: #EEEEEE;
+        color: #FF0000;
+        border-radius: 5%;
+        font-size: 0.75em;
+        font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    }
+
+    #hr {
+        border-top: 3px double #000000;
+    }
+
+    hr {
+        border-top: 1px solid black;
+    }
+
+    #a {
+        font-size: 500%;
+        color: teal;
+    }
+
+        </style>
+    <head>
+        <title>Self-Evaluation Report</title>
+    </head>
+    <body>
+        <h1>Self-Evaluation Report</h1>
+        <h2>Including Assessments According to the Web Content Accessibility
+          Guidelines (<abbr>WCAG</abbr>) 2.0 and TA Feedback and Improvements</h2>
+        <h3>Date of evaluation: 29 January 2018<br>
+            Last modified: 29 January 2018<br>
+            Authors: Beatrix Z&#246;llner and Jaspreet Singh (Group 113)
+        </h3>
+
+        <hr id="hr">
+
+        <h3>Table of contents</h3>
+        <dl>
+            <dt><a href="#overview">Introduction</a></dt>
+            <dt><a href="#accessibility-highlights">Accessibility Highlights</a></dt>
+            <dt><abbr>WCAG</abbr> 2.0 Guidelines Evaluation</dt>
+            <dd>
+                <dt><a href="#improvement-plan">Improvement Plan</a></dt>
+                <dd>
+                    <dt>1. <a href="#perceivable">Perceivable</a></dt>
+                    <dd>1.1. <a href="#text-alternative">Text Alternatives</a></dd>
+                    <dd>1.3. <a href="#adaptable">Adaptable</a></dd>
+                    <dd>1.4. <a href="#distinguishable">Distinguishable</a></dd>
+                    <dt>2. <a href="#operable">Operable</a></dt>
+                    <dd>2.1. <a href="#keyboard-accessible">Keyboard Accessible</a></dd>
+                    <dd>2.4. <a href="#navigable">Navigable</a></dd>
+                </dd>
+            </dd>
+        </dl>
+        </p>
+
+        <h4>Appendices</h4>
+        <p><a href="#appendix-a">Appendix A <abbr>WCAG</abbr>Guidelines</a><br>
+        <a href="#appendix-b">Appendix B TA Feedback</a></p>
+
+        <hr>
+
+        <h3 id="overview">Overview</h3>
+        <p>The assessment of our page according to the WCAG 2.0 Guidelines </p>
+
+        <h3 id="accessibility-highlights">Accessibility Highlights</h3>
+        <p>Our Web page is accessible in terms of good contrast between the
+        background and the text. This makes it possible for the majority of the
+        visitors to visit our Web page without having any problems. Also, on our
+        Web page purpose of the links can be determined by its name. This
+        prevents visitors from clicking on a link and going to a different page
+        than wanted.</p>
+
+        <hr>
+
+        <h3>Improvement Plan</h3>
+        <h4>1. Perceivable</h4>
+        <p><strong>1.1. Text Alternatives</strong><br>
+        1.1.1. Non-text content<br>
+        We should provide a text alternative for the header image. Furthermore,
+        we should have used the &#x003C;alt&#x003E; attribute for the
+        &#x003C;input&#x003E; which enhances the accessibility of our Web page
+        and it helps to improve search engine optimization (<abbr>SEO</abbr>).</p>
+
+        <p><strong>1.3 Adaptable</strong><br>
+        1.3.1. Our Web Page would would have complied to guideline 1.3.1 if we
+        would have had provided an alternative text for the header image since
+        this is the only element that gets lost when using a different
+        stylesheet or even better: not using header image. Instead, HTML and CSS
+        can be used to make a simple logo which does still show up when another
+        or no stylesheet is used. Also, making sure that structure of the page
+        does not get lost (i.e. elements of the page not in the right place
+        anymore) will make our page comply to guideline 1.3.1. <br>
+        1.3.2. We can include in the "Number 1", "Number 2" and so on for each
+        element in the ordered list and also leave out the
+        <code>&#x003C;th&#x003E;</code> elements in the table in the footer,
+        since they are not of real importance. The latter situation applies also
+        on the table with the phones, because you cannot place a
+        <code>&#x003C;td&#x003E;</code> element in a different column with a
+        different heading. For instance, the screen size of the phone cannot
+        be placed in a column which should contain the model of the phone.
+        However, we cannot leave out those headings since they are important.
+        Also, the order of the elements of the form is depends on the headers
+        of the table and since we do not leave out those, we cannot change the
+        order of the elements. However, if we would leave out the headers, then
+        we could add labels to each field to make the elements independent from
+        their order. Actually, we use have placeholders in the form fields, but
+        the independency of the order of the elements cannot depend on those
+        placeholders in our opinion.<br>
+        1.3.3. We can solve the problem discussed in Appendix A by looking for
+        phone images with the same sizes which does not have to be adjusted
+        using CSS. Also, we have to make sure that the header image does not
+        depend on its size or replace it by a simple text logo.</p>
+
+        <p><strong>1.4. Distinguishable</strong><br>
+        There are no further improvements needed to make our Web page more
+        distinguishable as explained in Appendix A.</p>
+
+        <h4>2. Operable</h4>
+        <p><strong>2.1. Keyboard Accessible</strong><br>
+        2.1.1. We should have made links and buttons navigable by keyboard by
+        making use code with keyboard shortcuts and linking to this code to our
+        HTML documents.</p>
+
+        <p><strong>2.4. Navigable </strong><br>
+        2.4.1. We do not have blocks of content repeated on multiple pages.
+        However, if we would have had this, then we would have to find a way to
+        make it possible to bypass. We could do this by using script which makes
+        it possible to collapse and expand elements such as the header and the
+        footer. Still, this criterion is not one we can use to base our
+        judgement on of how navigable our site is.</p>
+
+
+        2.4.2. The Web page has a title, so 2.4.2 complies to the Web page.<br>
+        2.4.3. This criterion does not apply to our Web page, because our Web
+        page cannot be navigated sequentially.<br>
+        2.4.4. Although the links on our page do not link to existing pages, the
+        purpose of each link on our Web page can be determined by the text only.
+        Thus, our Web page complies to 2.4.4.<br>
+        2.4.5. This does not apply to us, because we only have one Web page.<br>
+        2.4.6. Each section of our Web page has a title or heading.<br>
+
+        <hr>
+
+        <h3 id="appendix-a">Appendix A assessment according to the
+          <abbr>WCAG</abbr> 2.0 guidelines</h3>
+        <table>
+            <tr>
+                <th><abbr>WCAG</abbr> Guideline</th>
+                <th>Assessment</th>
+                <th>Complies to guideline</th>
+            </tr>
+            <tr>
+                <td>1.1. Text Alternatives</td>
+                <td>
+                  1.1.1.Our Web page does unfortunately not provide text
+                  alternatives that serve the equivalent purpose for most of the
+                  non-text content. Our Web Page contains a header image and
+                  input fields.
+                </td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1.3. Adaptable</td>
+                <td>
+                    1.3.1. Except for the header image, the information does not
+                    get lost when using another stylesheet. Using no style
+                    sheet, no information gets lost, however the sidebar,
+                    navigation bar, top bar and the main body are not in correct
+                    order anymore. We can conclude that no information gets
+                    lost, but the structure does.<br>
+                    1.3.2. We have a lot unordered lists of which the meaning
+                    does not rely on the order of the list. However, we have one
+                    ordered list. The meaning of this list does rely on the
+                    order of it elements. We also have two table in the for
+                    which the order of the <code>&#x003C;td&#x003E;</code>
+                    elements matter (i.e. in which column they are placed). We
+                    have forms to filter the results of the webshop, to rate our
+                    page and to add new phones to the webshop. The order of the
+                    elements is important for the latter form as the order
+                    depends on the table headers which we cannot leave out.<br>
+                    1.3.3. Our Web page content does not solely rely on sensory
+                    characteristic, except for two things. First of all, size of
+                    the header image depends on size, but it does not affect the
+                    experience of visiting the Web page. Secondly, the sizes of
+                    the phone images matter a lot. If the sylesheet would not
+                    define the define the size of the images, then it would
+                    cause the size of two of the three images to affect the
+                    experience of visiting the Web page heavily in a negative
+                    way. But, shape, visual location, orientation or sound do
+                    not affect the user experience when visiting our Web page.
+                </td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>1.4. Distinguishable</td>
+                <td>
+                    1.4.1. Our Web Page does not rely on colour and the
+                    foreground and background are easily distinguishable from
+                    each other. Also, all elements of the body (i.e. the
+                    sidebar, the main, the header and the footer) provide enough
+                    contrast between the text colour and the background colour.
+                    Therefore our Web page is readable for people with colour
+                    deficits. We made sure that this is the case by using an
+                    <a href="https://snook.ca/technical/colour_contrast/colour.html" target="_blank">online tool</a>.<br>
+                    1.4.2. Since our page does not have audio content, users
+                    will not face any problems regarding audio when visiting the
+                    Web page.<br>
+                    1.4.3. (AA)<br>
+                    1.4.4. (AA)<br>
+                    1.4.5. (AA)<br>
+                    1.4.6. (AAA)<br>
+                    1.4.7. (AAA)<br>
+                    1.4.8. (AAA)<br>
+                    1.4.9. (AAA)<br>
+                </td>
+                <td>Yes &#x1F525;<em id="a">&#x263A;</em></td>
+            </tr>
+            <tr>
+                <td>2.1. Keyboard Accessible</td>
+                <td>
+                    2.1.1. If you are navigating through the page using your
+                    keyboard only, you are not be able to navigate through the
+                    whole page and each element. This problem is caused by links
+                    and buttons that cannot be selected using only the keyboard.<br>
+                    2.1.2. This criterion does not apply to our Web page as it
+                    is not keyboard accessible.<br>
+                    2.1.3. Our Web page is not operable through a keyboard
+                    interface with all its functionality. (AAA)
+                </td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>2.4. Navigable</td>
+                <td>
+                    2.4.1. We do not have blocks of content that are repeated on
+                    multiple Web pages. Since this situation does not apply on
+                    our Web page, we cannot base our judgement about
+                    navigability on 2.4.1.<br>
+                    2.4.2. The Web Page has a page title and if it would consist
+                    of more we would add a title for each.<br>
+                    2.4.3. This criterion does not apply to our Web page,
+                    because it is not possible to navigate through it
+                    sequentially.<br>
+                    2.4.4. Although the links on our page do not link to
+                    existing pages, the purpose each link on our Web page can be
+                    determined by the text only.<br>
+                    2.4.5. This does not apply to us, because we only have one
+                    Web page. (AA)<br>
+                    2.4.6. Each section of our Web page has a title or heading.
+                    (AA)<br>
+                    2.4.7 (AA)<br>
+                    2.4.8. (AAA)<br>
+                    2.4.9. (AAA)<br>
+                    2.4.10. (AAA)<br>
+                </td>
+                <td>No</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <h3 id="appendix-b">Appendix B TA Feedback</h3>
+        <h4>Assignment 1</h4>
+        <table>
+            <tr>
+                <th>Feedback</th>
+                <th>Feedback is related to</th>
+                <th>Suggestion for improvement</th>
+            </tr>
+            <tr>
+                <td>"please, pleaseee, run the w3c validator"</td>
+                <td>Technical implementation detail</td>
+                <td>Running the W3C validator and solving the errors.</td>
+            </tr>
+            <tr>
+                <td>"Incorrect file names and some small mistakes"</td>
+                <td>Technical implementation detail</td>
+                <td>Correct use of file names and solving the mistakes.</td>
+            </tr>
+            <tr>
+                <td>"Although your intentions are right, there are some places
+                  where you can't use the <code>alt</code> tag."</td>
+                <td>Technical implementation detail</td>
+                <td>Using the <code>alt</code> attribute only when appropriate
+                  such as <code>&#x003C;input&#x003E;</code>.</td>
+            </tr>
+            <tr>
+              <td>"Missing <code>page-break-before</code>"</td>
+              <td>Technical inplementation detail</td>
+              <td>Adding the <code>page-break-before</code>.</td>
+            <tr>
+                <td>"No need for input fields or colour"</td>
+                <td>Potentially negative aspect</td>
+                <td>Making sure that the print stylesheet is adjusted to a black
+                  and white printer and also deleting the fields.</td>
+            </tr>
+            <tr>
+                <td>"Not really responsive other than the top banner and
+                  navigation"</td>
+                <td>Potentially negative aspect</td>
+                <td>Making the rest as responsive as the top banner and
+                  navigation regarding.</td>
+            </tr>
+        </table>
+
+        <h4>Assignment 2</h4>
+        <table>
+            <tr>
+                <th>Feedback</th>
+                <th>Feedback is related to</th>
+                <th>Suggestion for improvement</th>
+            </tr>
+            <tr>
+                <td>"Sort order not correct. (e.g. Telephones)"</td>
+                <td>Potentially negative aspect</td>
+                <td>Making the table correctly sortable.</td>
+            </tr>
+            <tr>
+                <td>"Submitting third party code instead of linking to it."</td>
+                <td>Technical implementation detail</td>
+                <td>Link to third party code when using it.</td>
+            </tr>
+        </table>
+    </body>
+</html>
