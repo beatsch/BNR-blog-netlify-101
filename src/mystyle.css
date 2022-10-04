@@ -489,20 +489,20 @@ a.sidelinks:active {
 
 #maintable {
   border-collapse: collapse;
-  caption-side: top;
-   width: 40%;
-  margin-left: 3%;
+  caption-side: relative;
+   width: auto;
+  margin-left: 12%;
   margin-right: auto;
 }
 
 #maintable th, td {
-    text-align: left;
+    text-align: auto;
     vertical-align: top;
     padding: 8px;
 }
 
 #maintable tr:nth-child(even) {
-  background-color: #EEEEEE
+  background-color: purple;
 }
 
 .buyphone {
@@ -561,11 +561,6 @@ a.sidelinks:active {
   background-color: red;
 }
 
-#pagebottom {
-  background-color: #BBBBBB;
-  width: 100%;
-  overflow: hidden;
-}
 
 #reviewstable {
     width: 100%;
@@ -577,63 +572,5 @@ a.sidelinks:active {
   float: center;
 }
 
-footer {
-  background-color: #CCCCCC;
-  font-size: 75%;
-  font-family: arial;
-  font-style: normal;
-  text-align: center;
-  width: 100%;
-  overflow: hidden;
-}
 
-#footertable {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#footertable td, th {
-  border-color: #DDDDDD;
-  border-width: 1px;
-  border-style: solid;
-  border-spacing: 2px;
-  text-align: left;
-  vertical-align: top;
-}
-
-#footertable a {
-  text-decoration: none;
-  margin-bottom: 2%;
-}
-
-#footertable a:link, li a:visited, a:hover, li a:focus {
-  color: #000000;
-}
-
-#footertable a:active {
-  color: #666666;
-}
-
-#footerlinks li {
-  list-style-type: none;
-  list-style-image: none;
-  text-align: center;
-  display: inline;
-}
-
-#footerlinks li a {
-  text-decoration: none;
-  margin-left: 5px;
-  margin-right: 5px;
-  float: center;
-}
-
-#footerlinks li a:link, li a:visited, a:hover, li a:focus {
-  color: #666666;
-}
-
-#footerlinks li a:active {
-  color: #AAAAAA;
-}
 
