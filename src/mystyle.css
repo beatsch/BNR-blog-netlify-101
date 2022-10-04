@@ -223,8 +223,9 @@ div.gallery {
 }
 div.gallery img {
    width: 100% !important;
-   height: auto !important;
-   margin-bottom:5px; /* to match column gap */
+   height: 100% !important;
+   margin-bottom:6px; /* to match column gap */
+   white-space: nowrap;
 }
 
 
@@ -234,6 +235,9 @@ div.desc {
   color: black;
   margin-bottom: 2px;
   font-size: 34%;
+  white-space: nowrap;
+  width: 100% !important;
+  height: 100% !important;
   }
 
 
@@ -400,11 +404,3 @@ footer {
     display: block;
   page-break-after: avoid;
 }
-
-h3 {
-  text-align: center;
-  font-weight: 300;
-  color: #3C5FA3;
-}
-
-
