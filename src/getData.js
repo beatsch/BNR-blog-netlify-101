@@ -1,12 +1,12 @@
 $(document).ready(function() {
   $.ajax({
     type: 'GET',
-    url: 'http://localhost:8080/phones',
+    url: 'https://www.vergarntundzugenaeht.de/kindermode',
     dataType: "json",
   });
 
   // Reference: https://www.youtube.com/watch?v=AOfSuajwY-I
-	$.getJSON("http://localhost:8080/phones", function(data) {
+	$.getJSON("https://www.vergarntundzugenaeht.de/kindermode", function(data) {
   	var phone_data = '';
     $.each(data, function(key, value) {
     	phone_data += '<tr class="item">';
