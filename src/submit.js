@@ -11,7 +11,7 @@ $(document).ready(function() {
     $.ajax({
       type: 'POST',
       url: 'https://www.vergarntundzugenaeht.de/kindermode',
-      data: {brand: brand, model: model, os: os, screensize: screensize, image: image},
+      data: {brand: groesse, model: farbe, os: art, screensize: material, image: muster},
       contentType: 'application/json',
       // dataType: "json",
       success: function() {
