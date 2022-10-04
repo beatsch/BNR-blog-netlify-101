@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: 'POST',
-      url: 'http://localhost:8080/phones',
+      url: 'https://www.vergarntundzugenaeht.de/kindermode',
       data: {brand: brand, model: model, os: os, screensize: screensize, image: image},
       contentType: 'application/json',
       // dataType: "json",
