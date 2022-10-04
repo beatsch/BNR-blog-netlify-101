@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: 'DELETE',
-      url: 'http://localhost:8080/phones',
+      url: 'https://www.vergarntundzugenaeht.de/kindermode',
       success: function() {
         location.reload();
       },
