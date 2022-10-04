@@ -410,11 +410,11 @@ footer {
 }
 
 #sidebar {
-  background-color: #BBBBBB;
+  background-color: black;
   padding: 2%;
   margin-right: 3%;
-  margin-top: 1.25%;
-  float: right;
+  margin-top: relative;
+  float: center;
 }
 
 #sidebar h3 {
@@ -464,10 +464,10 @@ a.sidelinks:active {
   border: 1px solid #000000;
   border-radius: 6px;
   display: inline-block;
-  top: 200px;
-  left: -120px;
- float: left;
-  position: fixed;
+  top: 400px;
+  right: -120px;
+  float: right;
+  position: auto;
 }
 
 #cartbutton:hover {
