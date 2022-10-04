@@ -109,84 +109,17 @@ padding: 16px;
        
           
 <h1>Sofortk&auml;fe</h1>
-    <h2>Alles nur auf Anfrage!</h2>
+    <p>Alles nur auf Anfrage!</p>
     <div id="sidebar">
       <section class="no-print">
-        <h3>Filter</h3>
-        <form class="sideforms">
-          <label>Brand</label><br>
-          <input class="cursorpointer" type="checkbox" name="htc" value="HTC (1)" checked>Halstuch<br>
-          <input class="cursorpointer" type="checkbox" name="iphone" value="iPhone (2)" checked>Pumphose<br>
-          <input class="cursorpointer" type="checkbox" name="nokia" value="Nokia (1)">Romper<br>
-          <input class="cursorpointer" type="checkbox" name="samsung" value="Samsung (3)">Set<br>
-          <input class="cursorpointer" type="checkbox" name="sony" value="Sony (2)">Wendejacke<br><br>
-          <label>Sort by</label><br>
-          <select name="sortby">
-            <option value="latest">Neu</option>
-            <option value="lowhigh">niedriger bis hoher Preis</option>
-            <option value="highlow">hoher bis niedriger Preis</option>
-            <option value="popular">super knuffig</option>
-          </select><br><br>
-          <input class="cursorpointer" type="reset" name="reset" value="Reset">
-          <input class="cursorpointer" type="submit" name="filter" value="Filter">
-        </form>
-      </section>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <section>
-        <h3>Am beliebtesten</h3>
-        <ol id="bestsoldlist">
-          <li><a id="link7" class="sidelinks" href="#iphone6">Pumphose</a></li>
-          <li><a id="link8" class="sidelinks" href="#iphonex">kurze Pumphose</a></li>
-          <li><a id="link9" class="sidelinks" href="#htc">Halstuch(M7)</a></li>
-        </ol>
-      </section>
-        <br>
-      <section>
-        <h3>Warum du bei mir Kindermode kaufen solltest?</h3>
-        <pre id="whyphoneworld">
-Ich gebe mir super viel mühe, und stecke sehr viel herzensarbeit in meine Designs und umsetzung, bis zur Verpackung und zum Versand, schau doch auch mal auf meinem Instagram vorbei! 
-        </pre>
-      </section>
-    </div>
+      
+       
+      
     <button id="cartbutton" class="cursorpointer no-print" type="button" onclick="alert('Shopping cart is empty.')">Einkaufswagen &#x1f6d2;</button>
-    <div id="bestwebshop">
-      <dl id="bestwebshoplist">
-        <dt><p><q><strong>Schönste Kindermode!</strong></q> Und sogar:</p></dt>
-        <dd><p>Handgemacht in Deutschland</p></dd>
-        <dd><p>Du kannst die Stoffe selber auf meiner Stoffseite zusammenstellen und mir einfach per mail oder instagram schreiben! Oder benutze die Kontaktbox.</p></dd>
-      </dl>
-    </div>
-
+    
     <br>
 
-    <form id="form" class="no-print" action="https://wt.ops.labs.vu.nl/api18/99fff472" method="post">
-    <table id="maintable">
-  		<caption>Products</caption>
-  		<tr>
-        <th onclick="w3.sortHTML('#maintable', '.item', 'td:nth-child(1)')" class="cursorpointer">Halstuch</th>
-        <th onclick="w3.sortHTML('#maintable', '.item', 'td:nth-child(2)')" class="cursorpointer">Pumphose</th>
-        <th onclick="w3.sortHTML('#maintable', '.item', 'td:nth-child(3)')" class="cursorpointer">Romper</th>
-        <th onclick="w3.sortHTML('#maintable', '.item', 'td:nth-child(4)')" class="cursorpointer">Set</th>
-        <th onclick="w3.sortHTML('#maintable', '.item', 'td:nth-child(5)')" class="cursorpointer">Wendejacke</th>
-  		</tr>
-      <tr>
-          <td><input id="brand" type="text" name="brand" placeholder="Brand" required></td>
-  				<td><input id="model" type="text" name="model" placeholder="Model" required></td>
-  				<td><input id="os" type="text" name="os" placeholder="Operating system" required></td>
-  				<td><input id="screensize" type="number" name="screensize" placeholder="inch" required></td>
-  				<td>
-  					<input type="url" id="inputimageurl" name="image" placeholder="URL" required>
-  					<button id="tableformreset" class="tableformbutton cursorpointer" type="reset">Zur&uuml;cksetzen</button>
-  					<button id="tableformsubmit" class="tableformbutton cursorpointer" type="submit">Hinzufügen</button>
-          </td>
-  		</tr>
-    </table>
-    </form>
-
-    <form id="resetdata" class="no-print" action="https://wt.ops.labs.vu.nl/api18/99fff472/reset" method="get">
-      <button type="submit" value="Reset database">Zur&uuml;cksetzen</button>
-    </form>
-          
+    
           
           
          <!--bottom of page after online shop -->
