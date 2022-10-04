@@ -458,7 +458,7 @@ a.sidelinks:active {
 #cartbutton {
   background-color: #FFFFFF;
   color: #000000;
-  font-size: 110%;
+  font-size: 90%;
   text-decoration: none;
   text-align: center;
   border: 1px solid #000000;
@@ -502,7 +502,7 @@ a.sidelinks:active {
 }
 
 #maintable tr:nth-child(even) {
-  background-color: purple;
+  background-color: coral;
 }
 
 .buyphone {
@@ -535,35 +535,35 @@ a.sidelinks:active {
 }
 
 .tableformbutton {
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: beige;
+  color: coral;
   border-radius: 8px;
 }
 
 .tableformbutton:hover {
-  color: #FFFFFF;
+  color: blue;
   transition-duration: 0.5s;
 }
 
 #tableformsubmit {
-  border: 2px solid green;
+  border: 2px solid lightblue;
 }
 
 #tableformsubmit:hover {
-  background-color: green;
+  background-color: lightblue;
 }
 
 #tableformreset {
-  border: 2px solid red;
+  border: 2px solid coral;
 }
 
 #tableformreset:hover {
-  background-color: red;
+  background-color: coral;
 }
 
 
 #reviewstable {
-    width: 100%;
+    width: auto;
 }
 
 #reviewstable td {
