@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="print.css" type="text/css" media="print">
     <style>
 #more {display: none;}
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-.sidebar {padding-top: 15px;}
-.sidebar a {font-size: 18px;}
-}
 
 .sidebar {
 height: 100%;
@@ -66,11 +61,29 @@ transition: margin-left .5s;
 padding: 16px;
 }
 
-
-
 </style>
+<script>
+     function todayDate(){
+        var d = new Date();
+        var n = d.getFullYear() + "  ";
+        return document.getElementById("date").innerHTML = n;
+      }
+</script>
+    
+    
+
 </head>
-<body>
+<body onload=todayDate()>
+   <table bordered>
+       <tr>
+         
+       </tr>
+ 
+   </table>
+
+	
+	
+<!-- sidebar -->
 
 
   <div id="mySidebar" class="sidebar">
@@ -870,22 +883,7 @@ padding: 16px;
     
     </div>
           
-        <small>             
-
-                                
-  <h6>  ♥  <br> <br>  VergarntundZugenäht<br>
-    <br>
-    Alessandra LaCognata<br>
-    50739 Köln<br>
-    <br>
-    VergarntundZugenaeht@web.de<br>
-    
-    Instagram Account: <br>Vergarnt&Zugenäht<br> </small></h6>
-    <br><br>
-    <br> <br> </h6>
-      
-  
-          </small>                      
+                        
   
   </div>
   
@@ -893,18 +891,7 @@ padding: 16px;
   </div>
   </div>
 </div>
-<!--Impressum -->
-<div class="center">
-  <h4> <small>
-  
-  <b><a href="impressum.html" target="_blank" style="color:dimgrey" >Impressum</a></b>
-  <b><a href="datenschutz.html" target="_blank" style="color:dimgrey" >Datenschutz</a></b>
-  <b><a href="agb.html" target="_blank" style="color:dimgrey" >AGB</a></b>
-</small>
-  </h4>
-</div>
 
-<!--Impressum ende -->
   
   <script>
   function openNav() {
@@ -938,7 +925,44 @@ function myFunction() {
       
 </script>
   
+     <!-- Outside transparentbox -->
+  <div class="center">
   
+    <h4> <small style="color:grey">
+       <small>             
+
+                                
+  <h6>  ♥  <br> <br>  VergarntundZugenäht<br>
+    <br>
+    Alessandra LaCognata<br>
+    50739 Köln<br>
+    <br>
+    VergarntundZugenaeht@web.de<br>
+    
+    Instagram Account: <br>Vergarnt&Zugenäht<br> </small></h6>
+    <br><br>
+    <br> <br> </h6>
+      
+  
+          </small>       </small></h4>
+  <br><br>
+    </div>
+    
+    
+    </div>
+  </div>
+	     <small style="color:white">
+      	   &copy; <em id="date"></em>Rust Mental Health All Rights Reserved
+	   &nbsp;  <h4> <small>
+    &nbsp; <a href="impressum.html" target="_blank" style="color:dimgrey" >Impressum</a>
+    &nbsp; <a href="datenschutz.html" target="_blank" style="color:dimgrey" >Datenschutz</a>
+    &nbsp; <a href="agb.html" target="_blank" style="color:dimgrey" >AGB</a>
+</small>
+  </h4>
+	     </small>
+  
+     
+    </footer>
   
   </body>
   </html> 
