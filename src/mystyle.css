@@ -225,7 +225,7 @@ div.gallery img {
    width: 100% !important;
    height: 100% !important;
    margin-bottom:6px; /* to match column gap */
-   white-space: nowrap;
+   white-space: wrap;
 }
 
 
@@ -233,9 +233,9 @@ div.desc {
   padding: 6px;
   text-align: center;
   color: black;
-  margin-bottom: 2px;
-  font-size: 34%;
-  white-space: nowrap;
+  margin-bottom: 4px;
+  font-size: 39%;
+  white-space: wrap;
   width: 90% !important;
   height: 105% !important;
   }
@@ -245,7 +245,7 @@ span {
     display: inline-block;
 }
 img {
-    width: 100%;
+    width: 99%;
 }
 
 
@@ -431,29 +431,9 @@ footer {
   float: left;
 }
 
-#bestsoldlist {
-  list-style-position: outside;
-}
 
-a.sidelinks {
-  text-decoration: none;
-  float: left;
-}
 
-a.sidelinks:link, a.sidelinks:visited, a.sidelinks:focus {
-  color: #000000;
-}
 
-a.sidelinks:active {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-#whyphoneworld {
-  text-indent: 5%;
-  text-align: left;
-  float: left;
-}
 
 #cartbutton {
   background-color: #FFFFFF;
@@ -477,54 +457,11 @@ a.sidelinks:active {
   transition-duration: 0.5s;
 }
 
-#bestwebshop {
-  text-align: left;
-  margin-left: 3%;
-  float: left;
-}
 
-#bestwebshoplist {
-  list-style-type: none;
-}
 
-#maintable {
-  border-collapse: collapse;
-  caption-side: relative;
-   width: auto;
-  margin-left: 12%;
-  margin-right: auto;
-}
 
-#maintable th, td {
-    text-align: auto;
-    vertical-align: top;
-    padding: 8px;
-}
 
-#maintable tr:nth-child(even) {
-  background-color: coral;
-}
 
-.buyphone {
-  margin-left: 1.5%;
-  width: 45%;
-}
-
-#maintable .figcaption {
-  font-size: 10px;
-  text-align: center;
-}
-
-.phoneimg {
-  height: 384px;
-  padding-bottom: 10%;
-  margin: 5%;
-}
-
-.phoneimg:hover {
-  transform: scale(1.1);
-  transition-duration: 0.5s;
-}
 
 #inputscreensize {
   width: 75%;
@@ -534,43 +471,7 @@ a.sidelinks:active {
   width: 31.25%
 }
 
-.tableformbutton {
-  background-color: beige;
-  color: coral;
-  border-radius: 8px;
-}
 
-.tableformbutton:hover {
-  color: blue;
-  transition-duration: 0.5s;
-}
-
-#tableformsubmit {
-  border: 2px solid lightblue;
-}
-
-#tableformsubmit:hover {
-  background-color: lightblue;
-}
-
-#tableformreset {
-  border: 2px solid coral;
-}
-
-#tableformreset:hover {
-  background-color: coral;
-}
-
-
-#reviewstable {
-    width: auto;
-}
-
-#reviewstable td {
-  text-align: left;
-  vertical-align: middle;
-  float: center;
-}
 
 section {
   height: 100vh;
