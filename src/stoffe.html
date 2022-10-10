@@ -162,7 +162,7 @@ div.item {
   <img src="unistoff/WhatsApp Image 2021-09-16 at 16.30.46.jpeg" alt="WhatsApp Image 2021-09-16 at 16.30.46" title="WhatsApp Image 2021-09-16 at 16.30.46" width="2048" height="2048" />
     <div class="desc"> pink</div> <div class="desc">Baumwolljersey</div>  
     
-    <span id="dots">...</span><span id="more">
+    <span id="dots"></span><span id="more">
     
   <img src="unistoff/WhatsApp Image 2021-09-16 at 16.31.02.jpeg" alt="WhatsApp Image 2021-09-16 at 16.31.02" title="WhatsApp Image 2021-09-16 at 16.31.02" width="2048" height="2048" />
     <div class="desc"> rot</div> <div class="desc">Baumwolljersey</div>  
@@ -267,11 +267,7 @@ div.item {
 <button onclick="myFunction()" id="myBtn">Mehr ansehen
 </button>
 
-</div>
-                </div>
-	        </div>
-		</div>
-            <br>
+
         </div>
 	</div>
 </div>
@@ -433,11 +429,11 @@ function myFunction() {
     
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
+    btnText.innerHTML = "mehr anzeigen"; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
+    btnText.innerHTML = "weniger anzeigen"; 
     moreText.style.display = "inline";
   }
 }
@@ -447,18 +443,18 @@ function myFunction() {
  <!--see more button two -->
  <script>
     function myFunctionn() {
-      var dots = document.getElementById("dotss");
-      var moreText = document.getElementById("moree");
-      var btnText = document.getElementById("myBtnn");
+      var dotss = document.getElementById("dotss");
+      var moreTextt = document.getElementById("moree");
+      var btnTextt = document.getElementById("myBtnn");
         
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
+      if (dotss.style.display === "none") {
+        dotss.style.display = "inline";
+        btnTextt.innerHTML = "mehr anzeigen"; 
+        moreTextt.style.display = "none";
       } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
+        dotss.style.display = "none";
+        btnTextt.innerHTML = "weniger anzeigen"; 
+        moreTextt.style.display = "inline";
       }
     }
           
