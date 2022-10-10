@@ -23,6 +23,9 @@ body {
     div {
       flex-basis: 33%;
     }
+  img {
+   object-fit: scale-down; max-width: 100%;
+  }
   }
 
 
