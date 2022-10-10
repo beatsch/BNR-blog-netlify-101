@@ -12,6 +12,8 @@ body {
     background-size: left;
     background-position: center 24%; 
   }
+  
+  .
 }
 
 
@@ -191,6 +193,14 @@ padding: 15px;
 div.image2ale {
 float: right;
 padding: 15px;
+}
+
+div.image3ale {
+float: left;
+padding: 0px;
+width: 100px;
+  height: auto;
+  object-fit: contain;
 }
 
 div.logosmaller {
