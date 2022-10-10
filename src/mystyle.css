@@ -115,9 +115,11 @@ div.transbox {
 }
 
 div.faketransbox {
-  margin: 9px;
+  margin: 0px;
   background-color: #ffffff;
-  opacity: 1.0;
+  opacity: 6.0;
+  float:right;
+  align: top;
 }
 
 div.transbox p {
