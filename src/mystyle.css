@@ -34,7 +34,7 @@ body {
 
 /* Add a background color to the top navigation */
 .topnav {
-  background-color: whitesmoke;
+  background-color: smoke;
   overflow: hidden;
   margin: 20%;
   margin-top: 1%;
@@ -115,9 +115,9 @@ div.transbox {
 }
 
 div.faketransbox {
-  margin: 0px;
-  background-color: #ffffff;
-  opacity: 6.0;
+  margin: 0%;
+  background-color: transparent;
+  opacity: 0.5;
   float:right;
   align: top;
 }
