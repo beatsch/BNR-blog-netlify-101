@@ -116,7 +116,7 @@ div.faketransbox {
 }
 
 div.transbox p {
-  margin: 25%;
+  margin: 22%;
   font-weight: bold;
   color: #000000;
 }
@@ -124,7 +124,7 @@ div.transbox p {
 
 @media screen (min-width: 320px) and (max-width: 768px) {
   .element {
-    margin: 30px;
+    margin: 28px;
   }
 }
 
@@ -236,8 +236,8 @@ div.desc {
   margin-bottom: 2px;
   font-size: 34%;
   white-space: nowrap;
-  width: 100% !important;
-  height: 100% !important;
+  width: 90% !important;
+  height: 105% !important;
   }
 
 
@@ -582,13 +582,13 @@ section {
   flex-direction: row;
 }
 .container {
-  width: 95%;
-  max-width: relative;
+  width: 120%;
+  max-width: auto;
   margin: 0 auto;
-  padding: 20px;
-  box-shadow: 0px 0px 20px #00000010;
+  padding: 2px;
+  box-shadow: 0px 0px 12px #00000010;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 0px;
   margin-bottom: 20px;
 }
 
@@ -596,9 +596,9 @@ section {
   width: auto;
   margin: 0 auto;
   padding: 0 auto;
-  position: left;
+  position: center;
   height: auto;
-  opacity: 1;
+  opacity: 1.0;
 }
 
 
