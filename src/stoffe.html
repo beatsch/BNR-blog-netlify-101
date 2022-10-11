@@ -4,16 +4,9 @@
     <meta charset="uff-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vergarnt und Zugenaeht</title>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
-  
-      <link rel="stylesheet" href="css/style.css">
-
- <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="mystyle.css">
     <link rel="stylesheet" href="print.css" type="text/css" media="print">
-
-  
+   
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -23,9 +16,8 @@
 <meta name="theme-color" content="#ffffff">
   <meta name="selbstgenaehte, kindermode, pumphosen, sets, stoffe, vergarnt, zugenaeht" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Ale">
-  
     <style>
-
+ #more {display: none;}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -83,6 +75,42 @@
 #main {
   transition: margin-left .5s;
   padding: 16px;
+}
+	    
+div.gallery {
+   line-height:0;
+   -webkit-column-count:3; /* split it into 3 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:3;
+   -moz-column-gap:5px;
+   column-count:3;
+   column-gap:5px;
+}
+div.gallery img {
+   width: 100% !important;
+   height: 100% !important;
+   margin-bottom:6px; /* to match column gap */
+   white-space: wrap;
+}
+
+
+div.desc {
+  padding: 6px;
+  text-align: center;
+  color: black;
+  margin-bottom: 4px;
+  font-size: 39%;
+  white-space: wrap;
+  width: 90% !important;
+  height: 105% !important;
+  }
+
+
+span {
+    display: inline-block;
+}
+img {
+    width: 99%;
 }
 
 
