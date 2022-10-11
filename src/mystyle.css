@@ -198,11 +198,11 @@ padding: 15px;
 }
 
 div.image3ale {
-float: left;
+float: right;
 padding: 0px;
 width: 100px;
-  height: auto;
-  object-fit: contain;
+height: auto;
+bject-fit: contain;
 }
 
 div.logosmaller {
