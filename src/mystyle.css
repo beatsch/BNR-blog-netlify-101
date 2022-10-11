@@ -115,12 +115,12 @@ div.transbox {
 }
 
 div.faketransbox {
-  margin: 2%;
+  margin: 10%;
   background-color: transparent;
   opacity: 0.77;
   float:right;
   align: top;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 
 div.transbox p {
