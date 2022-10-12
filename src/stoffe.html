@@ -34,7 +34,8 @@
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */	    
 @media (min-width:961px) {
-  .content {font-size: 25px;
+	.content {font-size: 25px;}
+	.desc {font-size: 22px;}
 }
 
 .sidebar {
@@ -132,6 +133,18 @@ img {
 header {
     opacity: 0.7658;
 	    }
+	    
+#topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: auto;
+    width: 125px;
+    background: url('logo1.jpg') no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+}	   
 
 
 </style>
@@ -153,7 +166,7 @@ header {
        </tr>
  
    </table>
-  
+  <a id="topright" href="#" title="TopRight">Top Right Link Text</a>
   
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
