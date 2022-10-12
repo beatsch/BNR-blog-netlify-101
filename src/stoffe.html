@@ -22,6 +22,7 @@
 	     #moree {display: none;}
 	     #moreee {display: none;}
 	     #moreeee {display: none;}
+	     #mor5 {display: none;}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -1053,7 +1054,7 @@ img {
 
     <img src="WhatsApp Unknown 2022-07-01 at 2.38.11 PM/WhatsApp Image 2022-06-28 at 6.10.18 PM (4).jpeg" alt="WhatsApp Image 2022-06-28 at 6.10.18 PM (4)" title="WhatsApp Image 2022-06-28 at 6.10.18 PM (4)" width="1023" height="1022" />
       <div class="desc">Baumwolljersey </div> <div class="desc"> Kamele klein</div>
-
+<span id="dot5"></span><span id="mor5">
 <div class"item">
     <img src="WhatsApp Unknown 2022-07-01 at 2.38.11 PM/WhatsApp Image 2022-06-28 at 6.10.18 PM (5).jpeg" alt="WhatsApp Image 2022-06-28 at 6.10.18 PM (5)" title="WhatsApp Image 2022-06-28 at 6.10.18 PM (5)" width="1023" height="1022" />
     <div class="desc">Baumwolljersey </div> <div class="desc"> Kamele gro&szlig; </div>
@@ -1142,7 +1143,8 @@ img {
     <img src="WhatsApp Unknown 2022-07-01 at 2.38.11 PM/WhatsApp Image 2022-06-28 at 6.10.18 PM.jpeg" alt="WhatsApp Image 2022-06-28 at 6.10.18 PM" title="WhatsApp Image 2022-06-28 at 6.10.18 PM" width="1023" height="1022" />
      <div class="desc">Baumwolljersey </div> <div class="desc"> Federn </div> <div class="desc">rot </div>
     </div>
-
+<button onclick="myFunction5()" id="myBtn5">Mehr ansehen</button>
+     
     </div>
     
     
@@ -1229,6 +1231,25 @@ function closeNav() {
         dotssss.style.display = "none";
         btnTextttt.innerHTML = "Read less"; 
         moreTextttt.style.display = "inline";
+      }
+    }
+          
+    </script>
+
+     <script>
+    function myFunction5() {
+      var dot5 = document.getElementById("dot5");
+      var moreText5 = document.getElementById("mor5");
+      var btnText5 = document.getElementById("myBtn5");
+        
+      if (dot5.style.display === "none") {
+        dot5.style.display = "inline";
+        btnText5.innerHTML = "Read more"; 
+        moreText5.style.display = "none";
+      } else {
+        dot5.style.display = "none";
+        btnText5.innerHTML = "Read less"; 
+        moreText5.style.display = "inline";
       }
     }
           
