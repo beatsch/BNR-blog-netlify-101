@@ -79,18 +79,20 @@
 	    
 div.gallery {
    line-height:0;
-   -webkit-column-count:5; /* split it into 3 columns */
+   -webkit-column-count:4; /* split it into 3 columns */
    -webkit-column-gap:5px; /* give it a 5px gap between columns */
    -moz-column-count:3;
    -moz-column-gap:5px;
-   column-count:5;
+   column-count:4;
    column-gap:5px;
 }
 div.gallery img {
    width: 100% !important;
    height: 100% !important;
    margin-bottom:6px; /* to match column gap */
-   white-space: wrap;
+   white-space: nowrap;
+    display: inline;
+    vertical-align: top;
 }
 
 
