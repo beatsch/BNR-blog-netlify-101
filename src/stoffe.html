@@ -21,6 +21,7 @@
 	     #more {display: none;}
 	     #moree {display: none;}
 	     #moreee {display: none;}
+	     #moreeee {display: none;}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -968,10 +969,10 @@ img {
     
 <img src="Motivstoffe/WhatsApp Image 2021-09-16 at 18.15.43.jpeg" alt="WhatsApp Image 2021-09-16 at 18.15.43" title="WhatsApp Image 2021-09-16 at 18.15.43" width="2048" height="2048" />
     <div class="desc">Baumwolljersey </div> <div class="desc"> Fahrzeuge Ocker</div>
-    
+  
 <img src="Motivstoffe/WhatsApp Image 2021-09-16 at 18.16.10.jpeg" alt="WhatsApp Image 2021-09-16 at 18.16.10" title="WhatsApp Image 2021-09-16 at 18.16.10" width="2048" height="2048" />
     <div class="desc">Baumwolljersey </div> <div class="desc"> Bagger </div> <div class="desc">und Traktoren </div> <div class="desc">Ocker</div>
-    
+<span id="dotssss"></span><span id="moreeee">      
 <img src="Motivstoffe/WhatsApp Image 2021-09-16 at 18.16.55.jpeg" alt="WhatsApp Image 2021-09-16 at 18.16.55" title="WhatsApp Image 2021-09-16 at 18.16.55" width="2048" height="2048" />
     <div class="desc">Baumwolljersey </div> <div class="desc"> Fahrzeuge </div> <div class="desc"> blauweiß</div>
     
@@ -1028,7 +1029,8 @@ img {
     
 <img src="Motivstoffe/bunteflieger.jpeg" alt="bunte Flieger" title="bunte Flieger" width="2048" height="2048" />
     <div class="desc">Baumwolljersey </div> <div class="desc"> bunte Flieger</div>
-    
+</span>
+<button onclick="myFunctionnnn()" id="myBtnnnn">Mehr ansehen</button>
      
 </div>
 
@@ -1196,7 +1198,7 @@ function closeNav() {
     
      <script>
     function myFunctionnn() {
-      var dotss = document.getElementById("dotsss");
+      var dotsss = document.getElementById("dotsss");
       var moreTextt = document.getElementById("moreee");
       var btnTextt = document.getElementById("myBtnnn");
         
@@ -1208,6 +1210,25 @@ function closeNav() {
         dotsss.style.display = "none";
         btnTexttt.innerHTML = "Read less"; 
         moreTexttt.style.display = "inline";
+      }
+    }
+          
+    </script>
+					   
+     <script>
+    function myFunctionnn() {
+      var dotssss = document.getElementById("dotssss");
+      var moreTextttt = document.getElementById("moreeee");
+      var btnTextttt = document.getElementById("myBtnnnn");
+        
+      if (dotsss.style.display === "none") {
+        dotssss.style.display = "inline";
+        btnTexttt.innerHTML = "Read more"; 
+        moreTexttt.style.display = "none";
+      } else {
+        dotssss.style.display = "none";
+        btnTextttt.innerHTML = "Read less"; 
+        moreTextttt.style.display = "inline";
       }
     }
           
