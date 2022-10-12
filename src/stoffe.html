@@ -26,16 +26,23 @@
 	     #more3 {display: none;}
 	     #more4 {display: none;}
 	     #more5 {display: none;}
+	    
+	     #topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 125px;
+    width: 125px;
+    background: url('logo.jpg) no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+}
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
-  div.desc {height: 100%;
-  width: 0;
-  position: fixed;
-	  color: red; 
-	font-size: 0.3em;}
 }
 
 .sidebar {
@@ -118,6 +125,7 @@ div.desc {
   white-space: wrap;
   width: 90% !important;
   height: 105% !important;
+  overflow-wrap: break-word;
   }
 
 
@@ -155,7 +163,7 @@ header {
        </tr>
  
    </table>
-  
+  <a id="topright" href="https://www.vergarntundzugenaeht.de/index.html" title="TopRight">Top</a>
   
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
