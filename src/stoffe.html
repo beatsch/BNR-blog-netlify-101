@@ -17,7 +17,8 @@
   <meta name="selbstgenaehte, kindermode, pumphosen, sets, stoffe, vergarnt, zugenaeht" content="HTML,CSS,XML,JavaScript">
   <meta name="author" content="Ale">
     <style>
- 	     #more1 {display: none;}
+	    
+	     #more1 {display: none;}
 	     #more2 {display: none;}
 	     #more3 {display: none;}
 	     #more4 {display: none;}
@@ -64,16 +65,16 @@
 }
 
 .openbtn {
-  font-size: 20px;
+  font-size: 0.5em;
   cursor: pointer;
   background-color: black;
   color: whitesmoke;
-  padding: 10px 15px;
+  padding: 1px 1px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: black;
+  background-color: transparent;
 }
 
 #main {
@@ -82,19 +83,21 @@
 }
 	    
 div.gallery {
-   line-height:0;
-   -webkit-column-count:3; /* split it into 3 columns */
+   line-height:1;
+   -webkit-column-count:4; /* split it into 4 columns */
    -webkit-column-gap:5px; /* give it a 5px gap between columns */
    -moz-column-count:3;
    -moz-column-gap:5px;
-   column-count:3;
+   column-count:4;
    column-gap:5px;
 }
 div.gallery img {
    width: 100% !important;
    height: 100% !important;
    margin-bottom:6px; /* to match column gap */
-   white-space: wrap;
+   white-space: nowrap;
+    display: inline;
+    vertical-align: top;
 }
 
 
@@ -112,21 +115,14 @@ div.desc {
 
 span {
     display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
 }
 img {
     width: 99%;
 }
 
 
-
-</style>
-      <script>
-     function todayDate(){
-        var d = new Date();
-        var n = d.getFullYear() + "  ";
-        return document.getElementById("date").innerHTML = n;
-      }
-   </script>
 
 
 </style>
